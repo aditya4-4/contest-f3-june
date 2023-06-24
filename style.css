@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 1px solid white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 2%;
+}
+
+.right-heading {
+    display: flex;
+    gap: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10%;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 100%;
+    padding: 1%;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.container {
+    width: 35%;
+}
+
+.input-filed.error-div {
+    color: red;
+    display: none;
+}
+
+.input-filed.successfully-div {
+    color: green;
+    display: none;
+}
+
+#submit {
+    padding: 2% 10%;
+    border: none;
+    font-size: large;
+}
+
+.input-filed {
+    margin-top: 3%;
+}
+
+.container-profile {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#logout {
+    padding: 1% 5%;
+    border: none;
+    font-size: large;
+}
+
+#show-all-data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
